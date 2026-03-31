@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Deepak T | Backend Engineer & AI/ML Developer Portfolio
 
-# Run and deploy your AI Studio app
+A modern, professional portfolio website designed for a Backend Engineer specializing in AI/ML development. This project focuses on a clean, high-performance, and responsive user experience.
 
-This contains everything you need to run your app locally.
+## Project Overview
 
-View your app in AI Studio: https://ai.studio/apps/a2b7bc9b-69ae-4f98-9d5a-afa7746a9de4
+This portfolio serves as a comprehensive showcase of technical expertise, professional experience, and key projects. It is built with a focus on "AI-driven intelligence" and scalable backend systems.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** React 19
+- **Styling:** Tailwind CSS 4 (Utility-first CSS)
+- **Animations:** Motion (formerly Framer Motion) for scroll reveals and hover effects
+- **Icons:** Lucide React
+- **Typography:** Inter (Google Fonts)
 
+## Core Sections
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Hero Section:** High-impact introduction with a professional tagline and quick-access contact links.
+2. **About Me:** Professional summary highlighting core values and problem-solving mindset.
+3. **Technical Arsenal:** Categorized skills grid covering Backend, AI/ML, Frontend, and Tools.
+4. **Featured Projects:** Bento-style grid showcasing key work like YOLOv8 Activity Monitor and NLP Document Analyzers.
+5. **Professional Journey:** Vertical timeline of experience at Cube AI Solutions and internships.
+6. **Education & Certifications:** Academic background and professional credentials.
+7. **Achievements:** Highlighted cards for awards and technical milestones.
+8. **Contact Hub:** Integrated contact section with direct links to LinkedIn, GitHub, and Email.
+
+## Design Principles
+
+- **Professional Dark Theme:** Uses a deep charcoal and black palette with vibrant blue accents to reflect a technical backend focus.
+- **Glassmorphism:** Subtle transparency and border effects for a modern, layered UI.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing.
+- **Performance:** Minimal dependencies and optimized asset loading for fast page speeds.
+
+## Development & Deployment
+
+### Local Development
+1. Install dependencies: `npm install`
+2. Run development server: `npm run dev`
+
+### Production Build
+1. Build the project: `npm run build`
+2. The output will be in the `dist/` directory, ready for deployment on platforms like Netlify, Vercel, or Cloud Run.
